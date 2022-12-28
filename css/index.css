@@ -84,3 +84,21 @@ main{
     color: #bdb9b9;
     border-bottom: 3px solid #2f4461;
 }
+main .contenido{
+    margin-top: 20px;
+}
+main .contenido div{
+    display: inline;
+}
+.imagen{
+    width: 190px;
+    height: 240px;
+    margin: 12px;
+    transition: border-color .5s, box-shadow .5s;
+}
+.imagen:hover{
+    border-color: #4b84d0;
+    box-shadow: 0px 0px 20px #4b84d0;
+    width: 191px;
+    height: 241px;
+}
