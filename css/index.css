@@ -9,13 +9,53 @@ header{
     width: 100%;
     background: #060d17;
     color: #d5d5d5;
-    
 }
-header div{
+.caja{
+    width: 90%;
+    position: relative;
+    margin: 0 auto;
+    padding: 10px;
+}
+header img{
+    width: 150px;
+    height: 60px;
+}
+nav {
+    position: absolute;
+    top: 25px;
+    right: 10px;
+}
+nav li{
     display: inline;
+    margin-left: 20px;
 }
-.logo img{
-    width: 130px;
-    height: 130px;
-    margin: 0 50px;
+nav a{
+    text-transform: uppercase;
+    color: #999c9f;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover, nav a:focus{
+    color: #dad4ca;
+    text-decoration: none;
+}
+nav .busqueda{
+    position: relative;
+    width: 381px;
+    padding: 8px 5px;
+    font-size: 17px;
+    background: #0e1f36;
+    color: #e6dcdc;
+    border: none;
+    border-radius: 8px;
+}
+nav .botonDespliegue{
+    width: 38px;
+    height: 38px;
+    font-size: 22px;
+    border: none;
+    border-radius: 8px;
+    color: #bdb9b9;
+    background: #0e1f36;
 }
