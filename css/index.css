@@ -1,0 +1,21 @@
+body {
+    font-family: Lato,Lato-fallback,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333;
+    background-color: #fff;
+}
+header{
+    width: 100%;
+    background: #060d17;
+    color: #d5d5d5;
+    
+}
+header div{
+    display: inline;
+}
+.logo img{
+    width: 130px;
+    height: 130px;
+    margin: 0 50px;
+}
