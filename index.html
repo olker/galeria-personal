@@ -18,12 +18,15 @@
             <h2><img src="imagenes/GaleriaPersonal.png" id="logo"></h1>
             <nav>
                 <ul>
-                    <li><a href="" class="nav">Inicio</a></li>
+                    <li><a href="" class="nav">Ver Todo</a></li>
                     <li><a href="" class="nav">Películas</a></li>
                     <li><a href="" class="nav">Series</a></li>
                     <li><a href="" class="nav">Anime</a></li>
                     <li>
-                        <input aria-label="search text" class="busqueda" placeholder="Búsqueda de Películas, Animes o Series" type="search" autocomplete="off" autocorrect="off" spellcheck="false">
+                        <span class="cajaBusqueda">
+                            <i class="fa fa-search"></i>
+                            <input aria-label="search text" class="busqueda" placeholder="Búsqueda de Películas, Animes o Series" type="search" autocomplete="off" autocorrect="off" spellcheck="false">
+                        </span>
                     </svg>
                     </li>
                     <li>
@@ -33,7 +36,18 @@
             </nav>
         </div>
     </header>
-    <main></main>
+    <main>
+        <div class="filtros">
+            <ul>
+                <li>Filtros de búsqueda <i class="fa fa-angle-double-right" aria-hidden="true"></i></li>
+                <li><button>Genero <i class="fa fa-angle-up" aria-hidden="true"></i></i></button></li>
+                <li><button>Idioma <i class="fa fa-angle-down" aria-hidden="true"></i></button></li>
+                <li><button>Estado <i class="fa fa-angle-down" aria-hidden="true"></i></button></li>
+                <li><button>Ordenar por <i class="fa fa-angle-down" aria-hidden="true"></i></button></li>
+            </ul>
+        </div>
+        <div class="contenido"></div>
+    </main>
     <footer></footer>
 </body>
 <script src="js/index.js"></script>

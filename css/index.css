@@ -3,7 +3,7 @@ body {
     font-size: 14px;
     line-height: 1.428571429;
     color: #333;
-    background-color: #fff;
+    background: #0a1626;
 }
 header{
     width: 100%;
@@ -33,7 +33,7 @@ nav a{
     text-transform: uppercase;
     color: #999c9f;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 20px;
     text-decoration: none;
 }
 nav a:hover, nav a:focus{
@@ -41,13 +41,18 @@ nav a:hover, nav a:focus{
     text-decoration: none;
 }
 nav .busqueda{
+    margin: 0;
     position: relative;
-    width: 381px;
+    width: 375px;
     padding: 8px 5px;
-    font-size: 17px;
+    font-size: 16px;
     background: #0e1f36;
     color: #e6dcdc;
     border: none;
+}
+nav .cajaBusqueda{
+    background: #0e1f36; 
+    padding: 10px;
     border-radius: 8px;
 }
 nav .botonDespliegue{
@@ -58,4 +63,24 @@ nav .botonDespliegue{
     border-radius: 8px;
     color: #bdb9b9;
     background: #0e1f36;
+}
+main{
+    padding: 30px 70px;
+}
+.filtros li{
+    display: inline;
+    color: #999c9f;
+    font-size: 18px;
+    margin-right: 50px;
+}
+.filtros button{
+    border: none;
+    background: none;
+    color: #999c9f;
+    font-size: 18px;
+    margin-right: 50px;
+}
+.filtros button:hover{
+    color: #bdb9b9;
+    border-bottom: 3px solid #2f4461;
 }
