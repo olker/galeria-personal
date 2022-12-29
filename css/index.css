@@ -137,3 +137,64 @@ main .contenido div{
     width: 191px;
     height: 241px;
 }
+.formularioLogin {
+    background: #2f4461;
+    margin: 40px auto;
+    max-width: 330px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.formularioLogin div, .formularioLogin button{
+    display: block;
+}
+.inputRe i, .inputRe input{
+    display: inline;
+} 
+.inputRe i{
+    padding-left: 5px;
+}
+.formularioLogin h2{
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial;
+    font-weight: 700;
+    color: #d5d5d5;
+    margin-bottom: 40px;
+}
+.formularioLogin .inputLogin{
+    width: 80%;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    padding: 5px 15px 5px 5px;
+    font-size: 20px;
+    border: none;
+    background: #dad4ca;
+}
+.inputLogin:focus{
+    outline: none;
+    border: none;
+}
+.inputRe{
+    height: 40px;
+    border-radius: 8px;
+    background: #dad4ca;
+    margin-bottom: 20px;
+}
+.inputRe:hover, .inputRe:focus{
+    border: 2px solid #4b84d0;
+}
+.checkPass label, .checkPass input{
+    display: inline;
+    font-size: 16px;
+    color: #999c9f;
+}
+.formularioLogin button{
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    width: 60%;
+    margin: 40px auto 10px;
+    color: #e6dcdc;
+    background: #0e1f36;
+}
