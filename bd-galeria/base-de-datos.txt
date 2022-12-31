@@ -1,0 +1,9 @@
+{
+    "user":[{
+        "nombre":"lucas",
+        "apodo":"Dalto",
+        "correo":"dalto@lucas.com",
+        "phone":"76480665",
+        "password":"76480665"
+    }]
+}

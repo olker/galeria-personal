@@ -15,31 +15,34 @@
     <header class="header"></header>
     <main>
         <div class="formulariRegistro">
-            <h2>Registro</h2>
-            <div class="inputRegis">
-                <i class="fa fa-user" aria-hidden="true"></i>
-                <input type="text" class="inputResgistro" placeholder="Ingrese su nombre">
-            </div>
-            <div class="inputRegis">
-                <i class="fa fa-user-secret" aria-hidden="true"></i>
-                <input type="text" class="inputResgistro" placeholder="Ingrese un apodo" required>
-            </div>
-            <div class="inputRegis">
-                <i class="fa fa-envelope" aria-hidden="true"></i>
-                <input type="email" class="inputResgistro" required placeholder="Ingrese un correo">
-            </div>
-            <div class="inputRegis">
-                <i class="fa fa-phone" aria-hidden="true"></i>
-                <input type="tel" class="inputResgistro" placeholder="Ingrese su numero de celular">
-            </div>
-            <div class="inputRegis">
-                <i class="fa fa-key" aria-hidden="true"></i>
-                <input type="password" class="inputResgistro" placeholder="Ingrese una contraseña" required>
-            </div>
-            <label><input type="checkbox" name="" id="passwordCheck"> Mostrar contraseña</label><br>
-            <button>Enviar Registro</button>
+            <form>
+                <h2>Registro</h2>
+                <div class="inputRegis inputNombre">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    <input type="text" class="inputResgistro nombre" placeholder="Ingrese su nombre" required>
+                </div>
+                <div class="inputRegis inputApodo">
+                    <i class="fa fa-user-secret" aria-hidden="true"></i>
+                    <input type="text" class="inputResgistro apodo" placeholder="Ingrese un apodo" required>
+                </div>
+                <div class="inputRegis inputEmail">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <input type="email" class="inputResgistro email" required placeholder="Ingrese un correo">
+                </div>
+                <div class="inputRegis inputCelular">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <input type="tel" class="inputResgistro celular" placeholder="Ingrese su numero de celular">
+                </div>
+                <div class="inputRegis inputPassword">
+                    <i class="fa fa-key" aria-hidden="true"></i>
+                    <input type="password" class="inputResgistro password" placeholder="Ingrese una contraseña" required>
+                </div>
+                <label><input type="checkbox" name="" id="passwordCheck"> Mostrar contraseña</label><br>
+            </form>
+            <button class="enviarRegistro">Enviar Registro</button>
         </div>
     </main>
 </body>
+<script src="js/registro.js"></script>
 <script src="js/constructor-header-html.js"></script>
 </html>

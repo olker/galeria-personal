@@ -78,12 +78,13 @@ nav .botonDespliegue{
     background: #0e1f36; 
 }
 .dropdown-content {
+    background: #2f4461;
     display: none;
     position: absolute;
     left: -80px;
-    width: 350%;
+    width: 380%;
     overflow: auto;
-    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.8);
 }
 .dropdown:hover .dropdown-content {
     display: block;
@@ -91,7 +92,7 @@ nav .botonDespliegue{
 .dropdown-content a {
     display: block;
     color: #bdb9b9;
-    padding: 5px;
+    padding: 5px 0 5px 10px;
     text-decoration: none;
     font-size: 15px;
 }
@@ -117,7 +118,7 @@ main{
 }
 .filtros button:hover{
     color: #bdb9b9;
-    border-bottom: 3px solid #2f4461;
+    border-bottom: 3px solid#2f4461;
 }
 main .contenido{
     margin-top: 20px;
@@ -132,10 +133,9 @@ main .contenido div{
     transition: border-color .5s, box-shadow .5s;
 }
 .imagen:hover{
-    border-color: #4b84d0;
     box-shadow: 0px 0px 20px #4b84d0;
-    width: 191px;
-    height: 241px;
+    outline: 2px solid #4b84d0;
+    border-radius: 8px;
 }
 .formularioLogin {
     background: #2f4461;
@@ -181,7 +181,7 @@ main .contenido div{
     margin-bottom: 20px;
 }
 .inputRe:hover, .inputRe:focus{
-    border: 2px solid #4b84d0;
+    outline: 2px solid #4b84d0;
 }
 .checkPass label, .checkPass input{
     display: inline;
@@ -209,27 +209,29 @@ main .contenido div{
 .formulariRegistro .inputRegis{
     width: 85%;
     margin: 25px auto;
-    padding: 5px;
+    padding: 2px 5px;
     border-radius: 8px;
     background: #999c9f;
     font-size: 22px;
+    transition: border .5s;
 }
 .inputRegis i{
     margin-left: 5px;
 }
 .inputResgistro{
+    width: 85%;
     margin-left: 5px;
     border: none;
     font-size: 20px;
     background: #999c9f;
     padding: 4px 0;
 }
+.inputRegis:hover{
+    outline: 2px solid #4b84d0;
+    box-shadow: 0px 0px 20px #4b84d0;
+}
 .inputResgistro:focus{
     outline: none;
-    border: none;
-}
-.inputRegis:hover, .inputRegis:focus{
-    border: 2px solid #4b84d0;
 }
 .formulariRegistro label{
     color: #999c9f;
@@ -255,7 +257,7 @@ main .contenido div{
 }
 .informacion{
     width: 90%;
-    color: #999c9f;
+    color: #d5d5d5;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -264,13 +266,13 @@ main .contenido div{
     text-align: center;
     margin: 15px 0px 30px;
     font-weight: 900;
-    color: #444;
+    color: #878a8e;
 }
 .informacion h2{
     font-size: 25px;
     margin: 10px 0 20px ;
     font-weight: 700;
-    color: #444;
+    color: #878a8e;
 }
 .informacion p{
     padding-left: 20px;
